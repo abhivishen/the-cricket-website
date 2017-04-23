@@ -1,0 +1,52 @@
+`@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+html{
+background: url("../css/PIC2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#submit_button {
+	float:left;
+	width:100%;
+	background:rgba(0,128,232,1);
+	text-align:center;
+	color:white;
+	padding-top:15px;
+	cursor:pointer;
+	padding-bottom:15px;
+	border-radius:3px;
+	box-shadow:1px 2px 4px rgba(0,0,0,0.8);
+	}
+.a{
+float:left;
+width:50%;
+margin-left:25%;
+margin-right:25%;
+background:rgba(0,0,0,0.2);
+}
+#alpha{
+float:left;
+width:70%;
+margin-left:15%;
+margin-right:15%;
+margin-top:20px;
+margin-bottom:20px;
+background:rgba(250,252,254,0);
+}
+#alpha input,#sex{
+float:left;
+width:100%;
+margin-bottom:10px;
+border:1px solid rgba(200,200,200,1);
+padding:15px;
+border-radius:3px;
+}
+#Fname,#Mname,#Ltitle{
+width:calc((100% / 3) - (20px / 3)) !important;
+}
+
+#Mname{
+margin-left:10px;
+margin-right:10px;
+}
